@@ -31,3 +31,11 @@ button {
 section {
     padding: 50px 20px;
 }
+
+.hero img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto 30px;
+}
