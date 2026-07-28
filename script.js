@@ -1,1 +1,7 @@
-console.log("Сайт працює!");
+fetch("products.json")
+.then(response => response.json())
+.then(products => {
+
+    console.log(products);
+
+});
