@@ -92,6 +92,10 @@ nav a {
     opacity: 0.85;
 }
 
+.button:active {
+    transform: translateY(0);
+}
+
 .details,
 .description {
   margin-top: 70px;
@@ -221,5 +225,15 @@ nav a {
     .details-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .button {
+
+        width: 100%;
+
+        max-width: 320px;
+
+    }
+
+}
 
 }
