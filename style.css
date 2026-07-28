@@ -168,3 +168,38 @@ nav a {
     color: #666;
     line-height: 1.6;
 }
+
+.details {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.details h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.detail-card {
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    padding: 25px 15px;
+}
+
+.detail-card span {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.detail-card strong {
+    font-size: 18px;
+}
