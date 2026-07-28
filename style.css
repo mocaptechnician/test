@@ -71,13 +71,25 @@ nav a {
 }
 
 .button {
-  display: inline-block;
-  background: #111;
-  color: #fff;
-  text-decoration: none;
-  padding: 16px 36px;
-  border-radius: 999px;
-  font-weight: 600;
+    display: inline-block;
+    background: #111;
+    color: white;
+
+    padding: 18px 50px;
+
+    text-decoration: none;
+
+    border-radius: 999px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
 }
 
 .details,
