@@ -144,3 +144,10 @@ nav a {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
