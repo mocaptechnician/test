@@ -71,7 +71,10 @@ nav a {
 }
 
 .button {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background: #111;
     color: white;
 
