@@ -356,5 +356,14 @@ footer {
     .details-grid {
         grid-template-columns: 1fr;
     }
+    .contacts a {
+    color: #111;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    }
+
+    .contacts a:hover {
+    opacity: 0.6;
+    }
 
 }
