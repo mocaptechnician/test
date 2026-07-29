@@ -1,109 +1,152 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D Print Studio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Print Studio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="topbar">
 
-  <a href="index.html" class="logo">
-    <img src="images/logo.png" alt="3D Print Studio logo">
-  </a>
+    <a href="#" class="logo">
+        <img src="images/logo.jpeg" alt="3D Print Studio">
+    </a>
 
-  <nav>
-    <a href="index.html">Товар</a>
-    <a href="returns.html">Повернення</a>
-    <a href="contact.html">Контакти</a>
-  </nav>
+    <nav>
+        <a href="#product">Товар</a>
+        <a href="#returns">Повернення</a>
+        <a href="#contacts">Контакти</a>
+    </nav>
 
 </header>
 
-<main class="container">
+<main>
 
-  <section class="hero">
-    <img src="images/product.jpeg" alt="3D printed product" class="hero-image">
+<section class="hero container" id="product">
+
+    <div class="hero-image">
+
+        <img src="images/product.jpeg" alt="3D-друкований виріб">
+
+    </div>
 
     <div class="hero-text">
-      <h1>Мінімалістичний органайзер</h1>
 
-      <p class="subtitle">
-        Авторський виріб, надрукований на 3D-принтері з увагою до кожної деталі.
-      </p>
+        <h1>Мінімалістичний органайзер</h1>
 
-      <div class="price">350 грн</div>
+        <p class="subtitle">
+            Авторський виріб, надрукований на 3D-принтері з увагою до кожної деталі.
+        </p>
 
-      <a href="https://ТУТ-ВСТАВ-СВОЄ-ПОСИЛАННЯ-НА-ОПЛАТУ"
-         class="button"
-         target="_blank">
-         Купити
-      </a>
+        <div class="price">
+            350 грн
+        </div>
+
+        <a
+            href="https://ТУТ-ВСТАВ-СВОЄ-ПОСИЛАННЯ"
+            class="button"
+            target="_blank">
+
+            Купити
+
+        </a>
+
     </div>
-  </section>
-
-<section class="details">
-
-  <h2>Деталі</h2>
-
-  <div class="details-grid">
-
-    <div class="detail-card">
-      <span>Матеріал</span>
-      <strong>PLA / PETG</strong>
-    </div>
-
-    <div class="detail-card">
-      <span>Колір</span>
-      <strong>Чорний</strong>
-    </div>
-
-    <div class="detail-card">
-      <span>Розмір</span>
-      <strong>120 × 80 × 60 мм</strong>
-    </div>
-
-    <div class="detail-card">
-      <span>Виготовлення</span>
-      <strong>1–3 дні</strong>
-    </div>
-
-  </div>
 
 </section>
 
-      <div>
-        <strong>Виготовлення</strong>
-        <p>1–3 дні</p>
-      </div>
-    </div>
-  </section>
+<section class="details container">
 
-  <section class="description">
-    <h2>Опис</h2>
+    <h2>Характеристики</h2>
+
+    <div class="details-grid">
+
+        <div class="detail-card">
+            <span>Матеріал</span>
+            <strong>PLA / PETG</strong>
+        </div>
+
+        <div class="detail-card">
+            <span>Колір</span>
+            <strong>Чорний</strong>
+        </div>
+
+        <div class="detail-card">
+            <span>Розмір</span>
+            <strong>120 × 80 × 60 мм</strong>
+        </div>
+
+        <div class="detail-card">
+            <span>Виготовлення</span>
+            <strong>1–3 дні</strong>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="description container">
+
+    <h2>Про виріб</h2>
 
     <p>
-      Органайзер створений для робочого столу, навушників, кабелів або дрібних аксесуарів.
-      Мінімалістична форма легко поєднується з сучасним інтерʼєром.
+        Органайзер створений для робочого столу, навушників,
+        кабелів та інших дрібних аксесуарів.
+        Мінімалістичний дизайн гармонійно поєднується
+        із сучасним інтер'єром та допомагає підтримувати порядок.
     </p>
-  </section>
 
-<section class="process">
-  <h2>Створено з увагою до деталей</h2>
+</section>
 
-  <p>
-    Кожен виріб проходить шлях від цифрової моделі до готового предмета.
-    Ми приділяємо увагу точності друку, якості поверхні та практичності використання.
-  </p>
+<section class="process container">
+
+    <h2>Створено з увагою до деталей</h2>
+
+    <p>
+        Кожен виріб проходить шлях від цифрової моделі
+        до готового продукту. Ми приділяємо увагу
+        точності друку, якості поверхні та практичності
+        кожної деталі.
+    </p>
+
+</section>
+
+<section class="returns container" id="returns">
+
+    <h2>Повернення</h2>
+
+    <p>
+        Якщо товар має виробничий дефект або був пошкоджений
+        під час доставки, зв'яжіться з нами протягом
+        14 днів після отримання замовлення.
+    </p>
+
+</section>
+
+<section class="contacts container" id="contacts">
+
+    <h2>Контакти</h2>
+
+    <p>Email:<br>
+        your@email.com
+    </p>
+
+    <p>Instagram:<br>
+        @your_instagram
+    </p>
+
 </section>
 
 </main>
 
-<footer class="footer">
-  <a href="returns.html">Правила повернення</a>
-  <a href="contact.html">Контакти</a>
+<footer>
+
+    <p>© 2026 3D Print Studio</p>
+
 </footer>
 
 </body>
