@@ -90,9 +90,17 @@ nav a:hover {
 /* Фото товару */
 
 .hero-image img {
+
     width: 100%;
+    max-width: 600px;
+
+    height: auto;
+
     border-radius: 24px;
+
     display: block;
+
+    margin: 0 auto;
 }
 
 
@@ -313,51 +321,40 @@ footer {
 
 @media (max-width: 600px) {
 
-
     .topbar {
-
         padding: 20px;
-
         flex-direction: column;
-
         gap: 20px;
-
     }
-
 
     nav {
-
         gap: 15px;
-
     }
-
 
     .container {
-
         padding: 50px 20px;
-
     }
-
 
     .hero-text h1 {
-
         font-size: 34px;
-
     }
 
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 100%;
+    }
 
     .button {
-
         width: 100%;
         max-width: 320px;
-
     }
 
-
     .details-grid {
-
         grid-template-columns: 1fr;
-
     }
 
 }
