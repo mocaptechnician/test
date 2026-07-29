@@ -357,13 +357,13 @@ footer {
         grid-template-columns: 1fr;
     }
     .contacts a {
-    color: #111;
-    text-decoration: none;
-    transition: opacity 0.3s ease;
+        color: #111;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
     }
 
     .contacts a:hover {
-    opacity: 0.6;
+        opacity: 0.6;
     }
 
 }
