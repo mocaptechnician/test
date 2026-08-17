@@ -134,28 +134,24 @@ nav a:hover {
 /* Кнопка */
 
 .button {
-
-    display: inline-flex;
-
+    display: flex;
     justify-content: center;
     align-items: center;
 
     width: 220px;
     height: 58px;
 
+    margin: 0 auto;
 
     background: #111;
-
     color: white;
 
     text-decoration: none;
 
     border-radius: 999px;
 
-
     font-size: 16px;
     font-weight: 500;
-
 
     transition:
         transform 0.3s ease,
