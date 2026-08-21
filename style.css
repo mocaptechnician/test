@@ -17,6 +17,12 @@ body {
     line-height: 1.6;
 }
 
+.legal-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 25px;
+}
+
 
 /* Верхня панель */
 
