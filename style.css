@@ -357,8 +357,8 @@ footer {
 
     .topbar {
         padding: 20px;
-        flex-direction: column;
-        gap: 20px;
+        /*flex-direction: raw;*/
+        gap: 12px;
     }
 
     nav {
