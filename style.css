@@ -356,9 +356,29 @@ footer {
 @media (max-width: 600px) {
 
     .topbar {
-        padding: 20px;
-        /*flex-direction: raw;*/
+        display: flex;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: flex-start;
         gap: 12px;
+        padding: 20px;
+    }
+
+    .logo {
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .logo img {
+        display: block;
+        width: 55px;
+        height: auto;
+    }
+
+    .studio-name {
+        display: block;
+        margin: 0;
+        white-space: nowrap;
     }
 
     nav {
@@ -390,6 +410,7 @@ footer {
     .details-grid {
         grid-template-columns: 1fr;
     }
+
     .contacts a {
         color: #111;
         text-decoration: none;
