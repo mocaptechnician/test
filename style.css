@@ -339,6 +339,10 @@ footer {
     text-decoration: none;
 }
 
+.back-home:hover {
+    text-decoration: underline;
+}
+
 /* Планшети */
 
 @media (max-width: 900px) {
