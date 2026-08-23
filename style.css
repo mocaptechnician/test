@@ -195,6 +195,8 @@ nav a:hover {
 /* Заголовки секцій */
 
 section h2 {
+    
+    font-family: "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
 
     font-size: 34px;
 
