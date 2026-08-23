@@ -334,6 +334,11 @@ footer {
 
 }
 
+.back-home {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
 /* Планшети */
 
 @media (max-width: 900px) {
