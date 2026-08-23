@@ -27,10 +27,8 @@ body {
 
 .topbar {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    gap: 12px;
+    justify-content: space-between;
     padding: 15px 25px;
     border-bottom: 1px solid #eeeeee;
     background: rgba(255,255,255,0.95);
@@ -38,6 +36,7 @@ body {
 
 
 /* Логотип */
+
 
 .logo {
     display: block;
@@ -54,8 +53,8 @@ body {
 
 /* Назва студії */
 
+
 .studio-name {
-    display: block;
     margin: 0;
     font-size: 18px;
     font-weight: 500;
