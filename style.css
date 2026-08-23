@@ -363,12 +363,10 @@ footer {
 @media (max-width: 600px) {
 
     .topbar {
-        display: flex;
-        flex-direction: row !important;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        justify-content: flex-start;
-        gap: 12px;
-        padding: 20px;
+        padding: 15px 20px;
     }
 
     .logo {
@@ -383,10 +381,9 @@ footer {
     }
 
     .studio-name {
-        display: block;
-        margin: 0;
         white-space: nowrap;
     }
+}
 
     nav {
         gap: 15px;
