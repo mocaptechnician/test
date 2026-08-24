@@ -124,6 +124,7 @@ nav a:hover {
 
 .hero-text h1 {
     font-size: 52px;
+    font-family: "Courier New", Courier, monospace;
     line-height: 1.15;
     margin-bottom: 25px;
     text-align: center;
