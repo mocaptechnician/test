@@ -342,6 +342,16 @@ footer {
     text-decoration: underline;
 }
 
+.contacts a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.contacts a:hover {
+    opacity: 0.6;
+}
+
 /* Планшети */
 
 @media (max-width: 900px) {
@@ -424,16 +434,6 @@ footer {
 
     .details-grid {
         grid-template-columns: 1fr;
-    }
-
-    .contacts a {
-        color: #111;
-        text-decoration: none;
-        transition: opacity 0.3s ease;
-    }
-
-    .contacts a:hover {
-        opacity: 0.6;
     }
     
     .spec-row {
